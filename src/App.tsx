@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Home } from "lucide-react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Layout from "./layouts/default"; // available: default, navbar, sidebar
-import Index from "./pages/Index.jsx";
+import Index from "./pages/Index";
 const queryClient = new QueryClient();
 
 export const navItems = [
